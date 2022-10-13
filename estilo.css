@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #1e2326;
+    background: black; /* Cambie el color de fondo */
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,10 +29,9 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #8E9D24;
+    color: #8E9D24; /* Cambie el color*/
     text-decoration: none;
 }
-/* Realice el cambio de color */
 .contenedor-header header ul{
     display: flex;
     list-style: none;
@@ -50,7 +49,7 @@ html{
 }
 /* Realice el cambio de color */
 .nav-responsive{
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Cambie el color*/
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -61,7 +60,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(foto_01.jpg);
+    url(foto_01.jpg); /* Cambie la imagen*/
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -71,10 +70,11 @@ html{
 /* Realice el cambio de color, agregue un borde, y cambien la radio del borde*/
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #1e2326;
+    background-color: black; /* Cambie el color*/
     border: 1px solid #8E9D24; 
     max-width: 350px;
     margin: auto;
+    margin-top: 100PX;
     text-align: center;
     border-radius: 9px;
 }
@@ -113,11 +113,10 @@ y width de 80% a 90%, agregue un height de 250px*/
     transition: .5s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #8E9D24;
+    background-color: #8E9D24;  /* Cambie el color*/
 }
-/* Realice el cambio de color */
 .sobremi{
-    background-color: #1e2326;
+    background-color: black; /* Cambie el color*/
     color: #fff;
     padding: 50px 20px;
 }
@@ -162,12 +161,11 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #8E9D24;
+    color: #8E9D24; /* Realice el cambio de color */
     width: 130px;
 }
-/* Realice el cambio de color */
 .sobremi .fila .col ul li span{
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Realice el cambio de color */
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -188,9 +186,8 @@ y width de 80% a 90%, agregue un height de 250px*/
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Realice el cambio de color */
 }
-/* Realice el cambio de color */
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;
@@ -214,11 +211,10 @@ y width de 80% a 90%, agregue un height de 250px*/
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Realice el cambio de color */
     z-index: -1;
     transition: 1s;
 }
-/* Realice el cambio de color */
 .sobremi button:hover .overlay{
     width: 100%;
 }
@@ -227,6 +223,8 @@ y width de 80% a 90%, agregue un height de 250px*/
     background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
+    border: 1px solid #8E9D24; /* Agregue un borde con un color determinado*/
+    
 }
 .skills .contenido-seccion{
     max-width: 1100px;
@@ -264,18 +262,17 @@ y width de 80% a 90%, agregue un height de 250px*/
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Realice el cambio de color */
     position: absolute;
     top: 0;
     left: 0;
     height: 8px;
 }
-/* Realice el cambio de color */
 .skills .skill .barra-skill span{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Cambie el color*/
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -291,7 +288,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 55%;} /* Cambie el porcentaje*/
 }
 
 .skills .skill .htmlcss{
@@ -300,7 +297,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 90%;} /* Cambie el porcentaje*/
 }
 
 .skills .skill .photoshop{
@@ -309,7 +306,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes photoshop {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 85%;} /* Cambie el porcentaje*/
 }
 
 .skills .skill .wordpress{
@@ -318,7 +315,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 90%;} /* Cambie el porcentaje*/
 }
 
 .skills .skill .drupal{
@@ -327,7 +324,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes drupal {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 49%;} /* Cambie el porcentaje*/
 }
 
 .skills .skill .comunicacion{
@@ -336,7 +333,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 95%;} /* Cambie el porcentaje*/
 }
 
 .skills .skill .trabajo{
@@ -345,7 +342,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 70%;} /* Cambie el porcentaje*/
 }
 
 .skills .skill .creatividad{
@@ -354,7 +351,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 99%;} /* Cambie el porcentaje*/
 }
 
 .skills .skill .dedicacion{
@@ -363,7 +360,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 85%;} /* Cambie el porcentaje*/
 }
 
 .skills .skill .proyect{
@@ -372,11 +369,11 @@ y width de 80% a 90%, agregue un height de 250px*/
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 94%;} /* Cambie el porcentaje*/
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
+    background-color: black; /* Cambie el color*/
     color: #fff;
     padding: 50px 20px;
 }
@@ -421,30 +418,30 @@ y width de 80% a 90%, agregue un height de 250px*/
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #8E9D24;
+    color: #8E9D24; /* Cambie el color*/
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #8E9D24;
+    color: #8E9D24; /* Cambie el color*/
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #8E9D24;
+    border-right: 2px solid #8E9D24; /* Cambie el color*/
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #8E9D24;
+    border-left: 2px solid #8E9D24; /* Cambie el color*/
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Cambie el color*/
     width: 47px;
     position: absolute;
     top: 50%;
@@ -456,14 +453,14 @@ y width de 80% a 90%, agregue un height de 250px*/
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Cambie el color*/
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Cambie el color*/
     width: 47px;
     position: absolute;
     top: 50%;
@@ -475,7 +472,7 @@ y width de 80% a 90%, agregue un height de 250px*/
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Cambie el color*/
     float: left;
     position: relative;
     bottom: 4px;
@@ -485,6 +482,7 @@ y width de 80% a 90%, agregue un height de 250px*/
     background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
+    border: 1px solid #8E9D24; /* Agregue un borde con un color determinado*/
 }
 .portfolio .contenido-seccion{
     max-width: 1100px;
@@ -518,7 +516,7 @@ y width de 80% a 90%, agregue un height de 250px*/
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(144, 158, 36, 1), rgba(144, 158, 36, 1));
+    background: linear-gradient(rgba(144, 158, 36, 1), rgba(144, 158, 36, 1)); /* Cambie el color*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -540,7 +538,7 @@ y width de 80% a 90%, agregue un height de 250px*/
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
+    background-color: black; /* Cambie el color*/
     color: #fff;
     padding: 50px 0;
 }
@@ -591,7 +589,7 @@ y width de 80% a 90%, agregue un height de 250px*/
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Cambie el color*/
     z-index: -1;
     transition: 1s;
 }
@@ -617,7 +615,7 @@ y width de 80% a 90%, agregue un height de 250px*/
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #8E9D24;
+    color: #8E9D24; /* Cambie el color*/
     display: inline-block;
     margin-right: 20px;
 }
@@ -649,7 +647,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #8E9D24;
+    background-color: #8E9D24; /* Cambie el color*/
     color: #fff;
     position: absolute;
     left: 50%;
